@@ -1,5 +1,37 @@
 var coloredArray = [];
-var arrayOfPhrases = ["Chris sits in scilence for 3 min."];
+var arrayOfPhrases = ['Chris “daddy legault” stays silent for three minutes', 'Diane laughs awkwardly/uncomfortably',
+   'Diane “nice color on it” in reference to black eye and Chris laughs in fake humor',
+   'Diane brings up Monique’s boyfriend',
+   'Monique and Julien look at each other like “wtf did mom just say”',
+   'Topic of discussion: Jobs',
+   'Topic of discussion: Four Cs',
+   'Topic of discussion: Weather',
+   'Topic of discussion: Trump injecting bleach',
+   'Topic of discussion: Cooking they have done recently',
+   'Topic of discussion: How crazy the dogs must be',
+   'Monique has nam flashbacks about mom’s cooking',
+   'Diane mentions hair dye',
+   'Chris goes to the bathroom and comes back with grapes',
+   'Chris stands for a weird amount of time behind the chair',
+   'Chris puts his hands in his pockets while leaning back to laugh',
+   'Diane brings up Audrie going to school next year',
+   'One of the Legaults bring up the difference between those who like warm/cold',
+   'Serve Seafood',
+   'Give us more than what we need in the bag',
+   'Someone asks if we’ve gotten sick of each other',
+   'They look like they are going crazy/going to murder each other',
+   'Diane brings up shooting squirrels because that\'s the only thing that\'s happened to them',
+   'Chris pokes at the fire for a while and then adds log',
+   'They bring up your grandparents',
+   'They bring up Easter zoom',
+   'Monique and Audrie talk about medical stuff',
+   'Diane brings up how Harvard is doing something dumb',
+   'Diane brings up the work she is able to give her assistant',
+   'They complain about something missing from the grocery store',
+   'Monique hates online classes',
+   'Awkward silence for 5 minutes',
+   'Joke about domestic abuse'
+   ];
 
 window.onload = function() {
    var cells = document.getElementById('table').getElementsByTagName('td');
