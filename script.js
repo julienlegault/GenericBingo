@@ -1,5 +1,5 @@
 var coloredArray = [];
-var arrayOfPhrases = ['Chris “daddy legault” stays silent for three minutes', 'Diane laughs awkwardly/uncomfortably',
+var arrayOfPhrases = ['Chris “daddy legault” stays silent for three minutes', 'Diane laughs awkwardly/ uncomfortably',
    'Diane “nice color on it” in reference to black eye and Chris laughs in fake humor',
    'Diane brings up Monique’s boyfriend',
    'Monique and Julien look at each other like “wtf did mom just say”',
@@ -19,7 +19,7 @@ var arrayOfPhrases = ['Chris “daddy legault” stays silent for three minutes'
    'Serve Seafood',
    'Give us more than what we need in the bag',
    'Someone asks if we’ve gotten sick of each other',
-   'They look like they are going crazy/going to murder each other',
+   'They look like they are going crazy/ going to murder each other',
    'Diane brings up shooting squirrels because that\'s the only thing that\'s happened to them',
    'Chris pokes at the fire for a while and then adds log',
    'They bring up your grandparents',
