@@ -16,6 +16,9 @@
 	border-top: 0px;
 	padding-top: 25px;
 }
+.bottom-box{
+	display: inline-block;
+}
 table {
    width: 100%;
 }
