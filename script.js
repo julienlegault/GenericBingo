@@ -1,4 +1,5 @@
 var coloredArray = [];
+var victoryArray = [];
 var arrayOfPhrases = [];
 
 window.onload = function() {
@@ -21,18 +22,36 @@ function createCells() {
          }
       }
    }
-   cells[12].style.background="#F0522C";
+   updateBackgroundColor(cells[12], 'red');
    cells[12].id = 12;
    coloredArray.push(12);
 }
 
 function turnRed() {
-   if(coloredArray.includes(parseInt(this.id))){
-
+   let cellNum = parseInt(this.id);
+   if(victoryArray.includes(cellNum)){
+      return;
+   } else if(coloredArray.includes(cellNum)){
+      updateBackgroundColor(this, 'white');
+      coloredArray.splice(coloredArray.indexOf(cellNum), 1);
    } else {
-      this.style.background="#F0522C";
-      coloredArray.push(parseInt(this.id));
+      updateBackgroundColor(this, 'red');
+      coloredArray.push(cellNum);
       checkVictory();
+   }
+}
+
+function updateBackgroundColor(cell, color){
+   switch(color){
+      case 'white':
+         cell.style.background = "#FFF";
+         break;
+      case 'red':
+         cell.style.background = "#F0522C";
+         break;
+      case 'green':
+         cell.style.background = "#7EC243";
+         break;
    }
 }
 
@@ -52,8 +71,9 @@ function checkVictory() {
 }
 
 function greeny(array) {
+   victoryArray.push(...array);
    for(var x of array){
-      document.getElementById(x).style.background="#7EC243";
+      updateBackgroundColor(document.getElementById(x), 'green');
    }
 }
 
