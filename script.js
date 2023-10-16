@@ -59,13 +59,17 @@ function turnRed() {
 function updateBackgroundColor(cell, color){
    switch(color){
       case 'white':
-         cell.style.background = "#FFF";
+         //cell.style.background = "#FFF";
+         cell.classList.remove('x_mark');
          break;
       case 'red':
-         cell.style.background = "#F0522C";
+         //cell.style.background = "#F0522C";
+         cell.classList.add('x_mark');
          break;
       case 'green':
-         cell.style.background = "#7EC243";
+         //cell.style.background = "#7EC243";
+         cell.classList.remove('x_mark');
+         cell.classList.add('o_mark');
          break;
    }
 }

@@ -44,3 +44,9 @@ td {
    text-align:center;
    vertical-align: middle;
 }
+td.x_mark {
+	background-image:url("x_mark.svg");
+}
+td.o_mark {
+	background-image:url("o_mark.svg");
+}
