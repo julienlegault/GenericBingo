@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="126.396 116.826 273.126 271.532" xmlns="http://www.w3.org/2000/svg">
-  <ellipse style="stroke: #7EC243; fill: #7EC243;" cx="262.959" cy="252.592" rx="136.563" ry="135.766" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)"/>
-  <ellipse style="stroke: #7EC243; fill: #FFF" cx="262.56" cy="254.185" rx="122.21" ry="124.202" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)"/>
+  <ellipse style="stroke: #7EC243; fill: #7EC243;" cx="262.959" cy="252.592" rx="136.563" ry="135.766" transform="matrix(1, 0, 0, 1, 0, 0)"/>
+  <ellipse style="stroke: #7EC243; fill: #FFF" cx="262.56" cy="254.185" rx="122.21" ry="124.202" transform="matrix(1, 0, 0, 1, 0, 0)"/>
 </svg>
