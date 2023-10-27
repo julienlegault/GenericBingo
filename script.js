@@ -125,7 +125,6 @@ function checkVictory() {
  */
 function savePhrases() {
    arrayOfPhrases = document.getElementById('inputBox').value.split(",");
-   console.log(arrayOfPhrases);
    localStorage.setItem('arrayOfPhrases', JSON.stringify(arrayOfPhrases));
    createCells();
 }
