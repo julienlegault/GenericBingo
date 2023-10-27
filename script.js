@@ -22,7 +22,6 @@ var arrayOfPhrases = [];
 // onload pulls phrase data from local storage to fill the cells
 window.onload = function() {
     arrayOfPhrases = JSON.parse(localStorage.getItem('arrayOfPhrases'));
-    document.getElementById('inputBox').value = arrayOfPhrases.join(",");
     createCells();
 }
 
@@ -31,7 +30,8 @@ window.onload = function() {
  */
 function createCells() {
    var cells = document.getElementById('table').getElementsByTagName('td');
-   if(arrayOfPhrases.length > 0) {
+   if(arrayOfPhrases != null && arrayOfPhrases.length > 0) {
+      document.getElementById('inputBox').value = arrayOfPhrases.join(",");
       for(i = 0; i < cells.length; i++) {
          if(i != 12) {
             var randomNumber = Math.floor(Math.random() * arrayOfPhrases.length);
@@ -40,6 +40,15 @@ function createCells() {
             cells[i].addEventListener('click', turnRed);
             cells[i].id = i;
             arrayOfPhrases.splice(randomNumber, 1);
+         }
+      }
+   } else {
+      for(i = 0; i < cells.length; i++) {
+         if(i != 12) {
+            var randomNumber = Math.floor(Math.random() * 100) + 1;
+            cells[i].textContent = randomNumber;
+            cells[i].addEventListener('click', turnRed);
+            cells[i].id = i;
          }
       }
    }
