@@ -1,16 +1,16 @@
 #header {
-	text-align:center;
-	vertical-align:middle;
-	line-height:100%;
-	border:solid 2px;
-	margin:auto;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100%;
+	border: solid 2px;
+	margin: auto;
 	width: 750px;
 }
 .outer-box{
-	text-align:center;
-	vertical-align:middle;
-	border:solid 2px;
-	margin:auto;
+	text-align: center;
+	vertical-align: middle;
+	border: solid 2px;
+	margin: auto;
 	width: 750px;
 	height: 775px;
 	border-top: 0px;
@@ -44,11 +44,14 @@ td {
    text-align: center;
    vertical-align: middle;
 }
+td:hover {
+	background-image: url("x_mark_hover.svg");
+}
 td.x_mark {
-	background-image:url("x_mark.svg");
+	background-image: url("x_mark.svg");
 }
 td.o_mark {
-	background-image:url("o_mark.svg");
+	background-image: url("o_mark.svg");
 }
 button {
 	position: absolute;
