@@ -30,18 +30,18 @@ tr {
 	height: 133;
 	width: 725px;
 	margin-left: auto;
-	margin-right:auto;
+	margin-right: auto;
 	margin-bottom: 0px;
 	margin-top: 10px;
 }
 td {
-	display:inline-block;
-	border:solid 2px;
+	display: inline-block;
+	border: solid 2px;
 	width: 135px;
 	height: 129px;
-	margin:auto;
+	margin: auto;
 	font-size: auto;
-   text-align:center;
+   text-align: center;
    vertical-align: middle;
 }
 td.x_mark {
@@ -49,4 +49,9 @@ td.x_mark {
 }
 td.o_mark {
 	background-image:url("o_mark.svg");
+}
+button {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 5px;
 }
